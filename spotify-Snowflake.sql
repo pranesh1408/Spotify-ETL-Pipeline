@@ -5,7 +5,7 @@ CREATE OR REPLACE STORAGE INTEGRATION spotify_s3_int
     STORAGE_PROVIDER = S3
     ENABLED = TRUE
     STORAGE_AWS_ROLE_ARN = ''
-    STORAGE_ALLOWED_LOCATIONS = ('s3://spotify-etl-project-pranesh')
+    STORAGE_ALLOWED_LOCATIONS = ('s3://spotify-etl-project-praneshg')
      COMMENT = 'creating connection to s3'
 
 DESC INTEGRATION spotify_s3_int;
